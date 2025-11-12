@@ -28,10 +28,9 @@ import type { ReqResUserList } from "../interfaces/reqres.response";
 export const UsersPage = () => {
 
  useEffect(()=>{
-  loadUsers().then( users => console.log(users))
- })
-
-
+  loadUsers()
+    .then( users => console.log(users))
+});
 
   return (
     <>
