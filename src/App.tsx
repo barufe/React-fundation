@@ -1,5 +1,5 @@
 
-import { LoginPage, UsersPage } from "./components"
+import { LoginPage, UsersPage, FormsPage } from "./components"
 // import { Counter, CounterWithHook } from "./components"
 // import { 
         // BasicFunctions,
@@ -21,7 +21,8 @@ function App() {
       {/* <Counter/> */}
       {/* <CounterWithHook/> */}
       {/* <LoginPage/> */}
-      <UsersPage/>
+      {/* <UsersPage/> */}
+      <FormsPage/>
     </main>
   )
 }
